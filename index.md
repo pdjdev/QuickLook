@@ -1,7 +1,3 @@
-![QuickLook icon](https://user-images.githubusercontent.com/1687847/29485863-8cd61b7c-84e2-11e7-97d5-eacc2ba10d28.png)
-
-# QuickLook
-
 [![license](https://img.shields.io/github/license/xupefei/QuickLook.svg)](https://www.gnu.org/licenses/lgpl-3.0.en.html)
 [![AppVeyor](https://img.shields.io/appveyor/ci/xupefei/QuickLook.svg)](https://ci.appveyor.com/project/xupefei/QuickLook)
 [![Github All Releases](https://img.shields.io/github/downloads/xupefei/QuickLook/total.svg)](https://github.com/xupefei/QuickLook/releases)
@@ -34,14 +30,14 @@ I am aware that several alternatives are already available on the Internet (e.g.
  [What are the differences between `.msi`, `.zip`, nightly and Store versions?](https://github.com/xupefei/QuickLook/wiki/Difference-between-distributions)
 
  1. Download from one of the following
-    * Windows Store (for Windows 10 users) <a href="https://www.microsoft.com/store/apps/9nv4bs3l1h4s?ocid=badge" target="_blank"><img src="https://assets.windowsphone.com/13484911-a6ab-4170-8b7e-795c1e8b4165/English_get_L_InvariantCulture_Default.png" width="80px" alt="Store Link" /></a> 
+    * Microsoft Store (for Windows 10 users) <a href="https://www.microsoft.com/store/apps/9nv4bs3l1h4s?ocid=badge" target="_blank"><img src="https://assets.windowsphone.com/13484911-a6ab-4170-8b7e-795c1e8b4165/English_get_L_InvariantCulture_Default.png" width="80px" alt="Store Link" /></a> 
     * Installer or portable archive of the stable version from [GitHub Release](https://github.com/xupefei/QuickLook/releases) 
     * Nightly builds from [AppVeyor](https://ci.appveyor.com/project/xupefei/quicklook/build/artifacts)
  2. Run `QuickLook.exe`
  3. Select a file/folder on the Desktop / in a File Explorer window / in an Open- or Save-File dialog
  4. Press <kbd>Spacebar</kbd>
  5. Select another file/folder in the same manner
- 6. When you're done, click on the `❎` button, or press <kbd>Spacebar</kbd> again
+ 6. When you're done, click on the `⨉` button, or press <kbd>Spacebar</kbd> again
 
 ### Hotkeys and buttons
 
@@ -52,22 +48,29 @@ I am aware that several alternatives are already available on the Internet (e.g.
  - <kbd>Ctrl-Wheel</kbd> Zoom in/out images
  - <kbd>Wheel</kbd> Increase/decrease volume
 
-## More Information
+## Supported file types, file manager intergation, etc.
 
-See the [Wiki page](https://github.com/xupefei/QuickLook/wiki).
+See the [Wiki page](https://github.com/xupefei/QuickLook/wiki)
 
 ## Translations
 
-See the [Wiki page](https://github.com/xupefei/QuickLook/wiki/Translations).
+See the [Translation guide](https://github.com/xupefei/QuickLook/wiki/Translations)
+
+## Thanks to
+
+ - Many [open-source projects](https://github.com/xupefei/QuickLook/wiki/On-the-Shoulders-of-Giants) and their contributors
+ - Our UI designers [@OiCkilL](https://twitter.com/OiCkilL) (“Fluent” user interface since v0.3) and [@QubitsDev](https://twitter.com/qubitsdev) (application icon since v0.3)
+ - [Our contributers](https://github.com/xupefei/QuickLook/graphs/contributors) who
+	 - teach QuickLook speaks *your* language
+	 - send pull requests, report bugs or give suggestions
+ - ... and you 😊
 
 ## Licenses
 
 ![GPL-v3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
-Application icons made by [@QubitsDev](https://twitter.com/qubitsdev). User interface designed by [@OiCkilL](https://twitter.com/OiCkilL). Thank you!
+This project references many other open-source projects. See [here](https://github.com/xupefei/QuickLook/wiki/On-the-Shoulders-of-Giants) for the full list.
 
-This project references many other projects. See [here](https://github.com/xupefei/QuickLook/wiki/On-the-Shoulders-of-Giants) for the full list.
-
-All source codes, except which are from other projects mentioned above, are licensed under [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
+All source codes are licensed under [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
 
 If you want make any modification on these source codes while keeping new codes not protected by GPL-3.0, please contact me for a sublicense instead.
